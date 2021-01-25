@@ -4,7 +4,7 @@ services:
   - docker
 
 script:
-  - docker pull quay.io/travisci/travis-build
+  - docker pull quay.io/montana/ubuntu
 
 deploy:
   provider: script
