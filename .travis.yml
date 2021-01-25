@@ -1,16 +1,14 @@
 language: generic
-os: linux 
+
 
 arch:
 - s390x
-- ppc64le
 
 services:
   - docker
 
 script:
   - docker pull quay.io/montana/ubuntu
-  - export DOCKER_CLI_EXPERIMENTAL=enabled
 
 deploy:
   provider: script
