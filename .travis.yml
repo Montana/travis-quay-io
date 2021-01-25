@@ -3,6 +3,7 @@ os: linux
 
 arch:
 - s390x
+- ppc64le
 
 services:
   - docker
