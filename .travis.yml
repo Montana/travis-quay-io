@@ -8,6 +8,8 @@ script:
 
 deploy:
   provider: script
-  script: bash build.sh
+  script: 
+  - bash build.sh
+  - bash create-multi-arch.sh
   on:
     branch: master
