@@ -6,10 +6,13 @@ arch:
 - s390x
 
 services:
-  - docker
+  - docker-ce
+
+
 
 script:
   - docker pull quay.io/montana/ubuntu
+  - export DOCKER_CLI_EXPERIMENTAL=enabled
 
 deploy:
   provider: script
