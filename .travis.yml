@@ -4,7 +4,7 @@ services:
   - docker
 
 script:
-  - docker build -t quay.io/montana/multi-arch-travis:$TRAVIS_BRANCH -t quay.io/montana/multi-arch-travis:latest .
+  - docker build -t quay.io/montana/multi-arch-travis:$TRAVIS_BRANCH -t quay.io/montana/multi-arch-travis .
 
 deploy:
   - provider: script
