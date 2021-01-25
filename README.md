@@ -1,2 +1,2 @@
-# travis-quay-io
+# Travis: quay.io
 Trying a robot account on quay.io (RedHat)
