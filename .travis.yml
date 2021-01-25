@@ -1,6 +1,5 @@
 language: generic
 
-
 arch:
 - s390x
 
