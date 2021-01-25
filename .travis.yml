@@ -15,4 +15,4 @@ arch:
 
 script: 
 - chmod +x ./build.sh sudo ./build.sh
-./build.sh
+- ./build.sh
