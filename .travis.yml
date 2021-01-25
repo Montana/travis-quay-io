@@ -11,5 +11,3 @@ deploy:
   script: bash build.sh
   on:
     branch: master
-
-#
