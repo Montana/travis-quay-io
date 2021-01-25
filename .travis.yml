@@ -7,5 +7,7 @@ script:
   - docker pull quay.io/travisci/travis-build
 
 deploy:
-  - provider: script
-    script: bash build
+  provider: script
+  script: bash build.sh
+  on:
+    branch: master
