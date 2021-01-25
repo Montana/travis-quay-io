@@ -3,7 +3,7 @@
 export DOCKER_CLI_EXPERIMENTAL=enabled
 
 docker manifest create quay.io/montana/ubuntu
-quay.io/montana/ubuntu:x86_64 quay.io/montana/ubuntu:ppc64le
+quay.io/montana/ubuntu:x86_64 quay.io/montana/ppc64le/ubuntu:latest
 
 docker manifest inspect quay.io/montana/ubuntu
 
