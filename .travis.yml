@@ -3,12 +3,9 @@ os: linux
 
 arch:
 - ppc64le
-- s390x
 
 services:
-  - docker-ce
-
-
+  - docker
 
 script:
   - docker pull quay.io/montana/ubuntu
@@ -22,4 +19,3 @@ deploy:
   on:
     branch: master
 
-#
