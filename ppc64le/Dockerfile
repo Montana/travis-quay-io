@@ -1,3 +1,5 @@
-FROM ppc64le/debian:latest
-RUN uname -a; dpkg --configure -a; LD_DEBUG=libs apt update -y; LD_DEBUG=libs apt upgrade -y; LD_DEBUG=libs apt --fix-broken install; LD_DEBUG=libs apt install -y git
-CMD echo "Hello World from a container running on $(uname -m)
+FROM ubuntu:18.04
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends mysql-client \
+    && rm -rf /var/lib/apt/lists/*
+ENTRYPOINT ["mysql"]
