@@ -1,6 +1,6 @@
 language: generic
 
-arch: ppc64le
+arch: arm64 
 
 services:
   - docker
