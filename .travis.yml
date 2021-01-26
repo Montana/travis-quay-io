@@ -1,7 +1,6 @@
 language: generic
 
-arch:
-- s390x
+arch: s390x
 
 services:
   - docker
@@ -16,4 +15,3 @@ deploy:
   
   on:
     branch: master
-# Trigger build 
