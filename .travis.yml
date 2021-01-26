@@ -2,7 +2,6 @@ language: generic
 
 arch:
 - s390x
-- arm64
 
 services:
   - docker
