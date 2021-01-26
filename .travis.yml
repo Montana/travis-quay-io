@@ -1,6 +1,6 @@
 language: generic
 
-arch: s390x
+arch: ppc64le
 
 services:
   - docker
